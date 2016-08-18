@@ -12,6 +12,7 @@
 		492F18621D664549002B7F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492F18611D664549002B7F17 /* Assets.xcassets */; };
 		492F18651D664549002B7F17 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492F18631D664549002B7F17 /* MainMenu.xib */; };
 		492F18701D664549002B7F17 /* MousePositionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 492F186F1D664549002B7F17 /* MousePositionTests.m */; };
+		492F187C1D66465F002B7F17 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 492F187B1D66465F002B7F17 /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		492F186B1D664549002B7F17 /* MousePositionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MousePositionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		492F186F1D664549002B7F17 /* MousePositionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MousePositionTests.m; sourceTree = "<group>"; };
 		492F18711D664549002B7F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492F187A1D66465F002B7F17 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		492F187B1D66465F002B7F17 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 				492F185B1D664549002B7F17 /* AppDelegate.h */,
 				492F185C1D664549002B7F17 /* AppDelegate.m */,
 				492F18611D664549002B7F17 /* Assets.xcassets */,
+				492F187A1D66465F002B7F17 /* MyView.h */,
+				492F187B1D66465F002B7F17 /* MyView.m */,
 				492F18631D664549002B7F17 /* MainMenu.xib */,
 				492F18661D664549002B7F17 /* Info.plist */,
 				492F185E1D664549002B7F17 /* Supporting Files */,
@@ -204,6 +209,7 @@
 			files = (
 				492F18601D664549002B7F17 /* main.m in Sources */,
 				492F185D1D664549002B7F17 /* AppDelegate.m in Sources */,
+				492F187C1D66465F002B7F17 /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
